@@ -16,8 +16,15 @@
             Console.WriteLine("Great!  Now what is your favorite band?");
             var band = Console.ReadLine();
 
-        }
+            Console.WriteLine($"Thanks, {userName}!  Here is your profile");
+            Console.WriteLine("-------------------------------");
 
+            Console.WriteLine($"Name: {userName}");
+            Console.WriteLine($"Favorite color: {color}");
+            Console.WriteLine($"Favorite animal: {animal}");
+            Console.WriteLine($"Favorite band: {band}");
+        }
+        
 
     }
     
